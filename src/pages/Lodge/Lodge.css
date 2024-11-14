@@ -1,0 +1,97 @@
+.lodge_section{
+    padding: 12px var(--primary-padding);
+}
+@media (max-width:500px) {
+    .lodge_section{
+        padding: var(--mobile-padding);
+    }
+}
+.lodge_section .container{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+}
+@media (max-width:500px) {
+    .lodge_section .container{
+        height: 50vh;
+    }
+}
+.lodge_section .back_image{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.lodge_section .back_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 8px;
+}
+.lodge_section .info_container_top{
+    position: absolute;
+    bottom:0;
+    color: var(--primary-color);
+    margin-left:20px;
+    margin-bottom: 20px;
+}
+.lodge_section .info_container_top h3{
+    border-bottom: 1px solid gray;
+    padding-bottom: 8px;
+    font-size: 28px;
+}
+.info_container_top .contact{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: var(--accent-color);
+    line-height: 1;
+}
+@media (max-width:800px) {
+    .info_container_top .contact{
+        flex-direction: column;
+        align-items: start;
+        gap: 0; 
+    }
+}
+.info_container_top .contact div{
+    display: flex;
+    gap: 4px;
+    padding-top: 12px;
+}
+.lodge_section .lodge_info{
+    padding-top: 16px;
+}
+.lodge_section .info_container{
+    padding-top: 16px;
+}
+.info_container .top{
+    padding-bottom: 8px;
+}
+.info_container .end{
+    padding-top: 8px;
+    font-weight: 700;
+}
+.info_container .end span{
+    font-weight: 400;
+}
+.lodge_info .room_count{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.lodge_info .amenity{
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.lodge_info .contain{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.lodge_info .contain div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

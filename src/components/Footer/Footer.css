@@ -1,0 +1,105 @@
+footer{
+    padding: 12px var(--primary-padding);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 40;
+    background-color: #e8e8e8;
+    font-family: "Merienda", cursive;
+    bottom: 0;
+    position: relative;
+}
+@media (max-width:690px) {
+    footer{
+        padding: var(--mobile-padding);
+    }
+}
+@media (max-width:890px) {
+    footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width:605px) {
+    footer{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+.footer_left{
+    color: var(--secondary-color);
+}
+.footer_left span{
+    color: var(--accent-color);
+}
+.footer_center{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.footer_center h4 span{
+    color: var(--accent-color);
+    text-decoration: none;
+}
+.footer_center .email_subscribe div{
+    width: 100%;
+}
+@media (max-width:605px){
+    .footer_center .email_subscribe {
+        display: none;
+       
+    }
+}
+.footer_center .email_subscribe input{
+    background: transparent;
+    padding: 8px 16px;
+    border: 1px solid gray;
+    border-radius: 100px 0 0 100px;
+}
+.footer_center .email_subscribe button{
+    border-radius: 0 100px 100px 0;
+    padding: 8px 16px;
+    background: var(--accent-color);
+    color: var(--primary-color);
+    border: 1px solid gray;
+}
+.footer_center span{
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+.footer_right{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.footer_end{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.footer_copyright{
+    background-color: #03081f;
+    color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    padding: 12px var(--primary-padding);
+    font-size: 14px;
+    bottom: 0;
+}
+@media (max-width:720px) {
+    .footer_copyright{
+        display: grid;
+        grid-template-columns: repeat(1fr 1fr);
+        padding: var(--mobile-padding);
+        font-size: 12px;
+    }
+    
+}
+.footer_copyright ul{
+    display: flex;
+    gap: 20px;
+}
+.footer_copyright ul li{
+    color: var(--primary-color);
+}
