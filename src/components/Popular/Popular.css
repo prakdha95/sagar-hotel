@@ -4,8 +4,8 @@
 }
 @media (max-width:690px) {
     .popular_section .popular_container{
-        padding: var(--mobile-padding);
-        padding-top: 0;
+        padding:var(--mobile-padding);
+        padding-top: 20px;
     }
 }
 .popular_container .heading{

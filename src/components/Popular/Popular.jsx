@@ -7,7 +7,7 @@ const Popular = () => {
       <section className='popular_section'>
         <div className="popular_container">
             <div className="heading">
-                <h2>DristiHotel Popular Categories</h2>
+                <h2>DristiHotel Popular <br />Categories</h2>
             </div>
             <div className="item_card">
                 <div className="card">

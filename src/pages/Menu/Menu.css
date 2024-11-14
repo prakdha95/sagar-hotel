@@ -153,6 +153,11 @@
     height: 120px;
     overflow-y: auto;
 }
+@media (max-width:1400px) {
+    .menu_section .category_items .card_info p{
+        height: 96px;
+    } 
+}
 .menu_section .category_items .card_info b{
     padding-top: 4px;
 }
