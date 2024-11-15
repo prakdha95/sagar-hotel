@@ -1,7 +1,9 @@
-import { NavLink, useNavigate } from 'react-router-dom'
+import { NavLink, useNavigate} from 'react-router-dom'
 import './Navbar.css'
 import { useState } from 'react'
 import { assets } from '../../assets/images'
+import { FaFacebook, FaFacebookMessenger, FaPhone } from 'react-icons/fa';
+
 
 const Navbar = () => {
 
@@ -20,6 +22,13 @@ const Navbar = () => {
 
     return (
         <>
+            <nav>
+                <div className="nav_top_contact">
+                    <p><FaPhone size={15} color="#0084FF"/> <span>9823445336</span></p>
+                    <a href="https://m.me/61568891067619"><p> <FaFacebookMessenger size={15} color="#0084FF" /> <span>Message</span></p></a>
+                    <a href="https://www.facebook.com/profile.php?id=61568891067619"><p> <FaFacebook size={15} color="#0084FF" /> <span>Facebook</span></p></a>
+                </div>
+            </nav>
             <nav className='main_nav'>
                 <div onClick={() => navigate('/')} className="logo">
                     <h2>Dristi<span>Hotel</span></h2>
@@ -27,7 +36,7 @@ const Navbar = () => {
                 <div className="nav_links">
                     <ul>
                         <NavLink to={'/'}><li>Home</li></NavLink>
-                        <NavLink to={'/menu'}><li>Browse Menu</li></NavLink>
+                        <NavLink to={'/menu'}><li>Menu Items</li></NavLink>
                         <NavLink to={'/lodge'}><li>Lodge Service</li></NavLink>
                         <NavLink to={'/contact'}><li>Contact Us</li></NavLink>
                     </ul>
@@ -52,7 +61,7 @@ const Navbar = () => {
                                     <div className="mobile_nav_links">
                                         <ul>
                                             <NavLink to={'/'}><li>Home</li></NavLink>
-                                            <NavLink to={'/menu'}><li>Browse Menu</li></NavLink>
+                                            <NavLink to={'/menu'}><li>Menu Items</li></NavLink>
                                             <NavLink to={'/lodge'}><li>Lodge Service</li></NavLink>
                                             <NavLink to={'/contact'}><li>Contact Us</li></NavLink>
                                         </ul>

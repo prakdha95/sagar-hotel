@@ -89,4 +89,9 @@
     font-weight: 600;
     font-size: 16px;
 }
+@media (max-width:690px){
+    .deals_container .item_card small{
+        padding: 2px;
+    }
+}
 

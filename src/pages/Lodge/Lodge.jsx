@@ -1,6 +1,6 @@
 import './Lodge.css'
 import { assets } from '../../assets/images'
-import { FaPhone, FaMapMarkerAlt, FaBed, FaCoffee, FaConciergeBell } from 'react-icons/fa';
+import { FaPhone, FaMapMarkerAlt, FaBed, FaCoffee, FaConciergeBell ,FaWifi, FaParking } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 
 const Lodge = () => {
@@ -65,6 +65,18 @@ const Lodge = () => {
                         <div>
                             <FaConciergeBell size={26} color="#4CAF50" />
                             <p>Room Service</p>
+                        </div>
+                        <div>
+                            <FaWifi size={26} color="#4CAF50" />
+                            <p>Free Wifi</p>
+                        </div>
+                        <div>
+                            <FaWifi size={26} color="#4CAF50" />
+                            <p>Free Parking</p>
+                        </div>
+                        <div>
+                            <FaParking size={26} color="#4CAF50" />
+                            <p>Free Parking</p>
                         </div>
                     </div>
                 </div>

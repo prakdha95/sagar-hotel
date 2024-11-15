@@ -88,6 +88,14 @@
     display: flex;
     align-items: center;
     gap: 100px;
+    padding-bottom: 48px;
+}
+@media (max-width:960px) {
+    .lodge_info .contain{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 16px;
+    }
 }
 .lodge_info .contain div{
     display: flex;

@@ -24,7 +24,7 @@ const Home = () => {
       <main className='hero_section'>
         <div className="hero_left">
           <p>Order Restaurant food and takeaway</p>
-          <h2>Feast Your Senses, <span>Fast and Fresh</span></h2>
+          <h2>Free Home Delivery, <span>Fast and Fresh</span></h2>
           <div className='searchForm'>
             <form>
               <input type="text" value={search} onChange={handleSearch} placeholder='search your food...' />
