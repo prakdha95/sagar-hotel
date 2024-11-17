@@ -93,7 +93,7 @@
 @media (max-width:960px) {
     .lodge_info .contain{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr ;
         gap: 16px;
     }
 }

@@ -59,7 +59,7 @@ const Lodge = () => {
                     </div>
                     <div className='contain'>
                         <div>
-                            <FaCoffee size={26} color="#FF4500" />
+                            <FaCoffee size={26} color="#4CAF50" />
                             <p>Breakfast</p>
                         </div>
                         <div>
@@ -69,10 +69,6 @@ const Lodge = () => {
                         <div>
                             <FaWifi size={26} color="#4CAF50" />
                             <p>Free Wifi</p>
-                        </div>
-                        <div>
-                            <FaWifi size={26} color="#4CAF50" />
-                            <p>Free Parking</p>
                         </div>
                         <div>
                             <FaParking size={26} color="#4CAF50" />

@@ -46,6 +46,7 @@
 .main_nav .logo {
     color: var(--secondary-color);
     cursor: pointer;
+    display: flex;
 }
 
 .main_nav .logo h2 {

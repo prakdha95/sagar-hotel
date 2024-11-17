@@ -31,11 +31,11 @@ const Popular = () => {
                     <small>Chicken Chowmein</small>
                 </div>
                 <div className="card">
-                    <img src={assets.muttonkhana} alt="" />
+                    <img src={assets.vegkhana1} alt="" />
                     <small>Mutton Khana</small>
                 </div>
                 <div className="card">
-                    <img src={assets.chicken_khaja} alt="" />
+                    <img src={assets.vegkhajaset} alt="" />
                     <small>Chicken Khaja</small>
                 </div>
             </div>

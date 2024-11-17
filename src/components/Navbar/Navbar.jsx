@@ -25,8 +25,8 @@ const Navbar = () => {
             <nav>
                 <div className="nav_top_contact">
                     <p><FaPhone size={15} color="#0084FF"/> <span>9823445336</span></p>
-                    <a href="https://m.me/61568891067619"><p> <FaFacebookMessenger size={15} color="#0084FF" /> <span>Message</span></p></a>
-                    <a href="https://www.facebook.com/profile.php?id=61568891067619"><p> <FaFacebook size={15} color="#0084FF" /> <span>Facebook</span></p></a>
+                    <a href="https://m.me/61569243950281"><p> <FaFacebookMessenger size={15} color="#0084FF" /> <span>Message</span></p></a>
+                    <a href="https://www.facebook.com/profile.php?id=61569243950281"><p> <FaFacebook size={15} color="#0084FF" /> <span>Facebook</span></p></a>
                 </div>
             </nav>
             <nav className='main_nav'>

@@ -16,7 +16,8 @@
 body{
   font-family: "Poppins", cursive;
 }
-::-webkit-scrollbar, :hover{
+/* ::-webkit-scrollbar, */
+ :hover{
   transition: 0.3s ease;
 }
 h2{
