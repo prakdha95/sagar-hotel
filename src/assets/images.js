@@ -387,7 +387,7 @@ export const food_list =[
         _id: "32",
         name: "Sada Rooti",
         image: rooti,
-        price:'20',
+        price:'25',
         description:"Made from whole wheat flour, cooked on a hot griddle. Soft, simple, and perfect with any curry or side dish.",
         category:"Breakfast"
     },
